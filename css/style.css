@@ -1,0 +1,177 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    /* background-color: seagreen; */
+    padding: 20px;
+}
+
+a:hover {
+    color: #f25454;
+    text-decoration: none;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.navbar-brand .navbar-light {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h1,
+h5 {
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+/* about */
+
+.about {
+    padding-top: 30px;
+}
+
+.about .a {
+    position: relative;
+    top: 50px;
+    opacity: 0.1;
+    line-height: 38px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about p {
+    padding: 20px;
+}
+
+.small-border {
+    width: 5%;
+    height: 1px;
+    background-color: black;
+}
+
+.progress {
+    height: 10px;
+}
+
+
+/* our team */
+
+.card-text {
+    text-align: center;
+    color: #666;
+}
+
+
+/* --------------services----------- */
+
+#services .services {
+    padding-top: 30px;
+}
+
+#services .services .a {
+    position: relative;
+    top: 50px;
+    opacity: 0.1;
+    line-height: 38px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+#services .services h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#services.services p {
+    padding: 20px;
+}
+
+
+/* ideas */
+
+.p p {
+    line-height: 50px;
+}
+
+
+/* .fas .fa-laptop {
+    font-size: 5px;
+} */
+
+.s h3 {
+    font-size: 16px;
+}
+
+.s p {
+    font-size: 14px;
+}
+
+.c h5 {
+    font-size: 20px;
+}
+
+.c p {
+    font-size: 15px;
+}
+
+.container-fluid {
+    background-color: #1a1a1a;
+}
+
+.reviews .carousel-item img {
+    width: 100px;
+    transform: translatey(25%);
+}
+
+.reviews .carousel-item {
+    height: auto;
+}
+
+.feedback {
+    border: 1px solid #f1f1f1;
+}
+
+.feedback h5 {
+    font-size: 15px;
+}
+
+.carousel-indicators li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-indent: 0;
+}
